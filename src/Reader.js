@@ -36,7 +36,7 @@ class Reader extends EventEmitter {
 	connection = null;
 	card = null;
 
-	autoProcessing = true;
+	autoProcessing = false;
 	_aid = null;
 
 	keyStorage = {
